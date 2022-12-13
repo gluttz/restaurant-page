@@ -27,7 +27,7 @@
     font-weight: bold;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     #about, #hours, #location{
         font-size: 1rem;
     }

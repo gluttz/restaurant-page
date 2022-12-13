@@ -1,0 +1,107 @@
+#menuContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#drinksContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--periwinkle);
+    opacity: .9;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px black;
+}
+#drinksContainer h2{
+    font-size: 2rem;
+}
+#drinksContainer ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    gap: .5rem;
+    
+}
+
+#foodContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+.food{
+    background-color: var(--periwinkle);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 0 10px black;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 1;
+}
+.food:hover{
+    box-shadow: 0 0 10px 5px black;
+    
+}
+.foodInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 0;
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    transition: .5s ease;
+}
+.food:hover .foodInfo{
+    height: 30%;
+    bottom: 0;
+}
+
+#blt{
+    background-image: url(../images/food/blt.jpg);
+}
+#cheeseburger{
+    background-image: url(../images/food/cheeseburger.jpg);
+}
+#chili{
+    background-image: url(../images/food/chili.jpg);
+}
+#panini{
+    background-image: url(../images/food/panini.jpg);
+}
+#pizza{
+    background-image: url(../images/food/pizza.jpg);
+}
+#ramen{
+    background-image: url(../images/food/ramen.jpg);
+}
+#salad{
+    background-image: url(../images/food/salad.jpg);
+}
+#spaghetti{
+    background-image: url(../images/food/spaghetti.jpg);
+}
+#stew{
+    background-image: url(../images/food/stew.jpg);
+}
+#sushi{
+    background-image: url(../images/food/sushi.jpg);
+}

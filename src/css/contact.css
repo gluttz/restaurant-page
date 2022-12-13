@@ -1,0 +1,52 @@
+
+#contactContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    height: 100%;
+}
+.contactDiv{
+    background-color: var(--periwinkle);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    min-height: 200px;
+    opacity: .9;
+    font-size: 3rem;
+    
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    opacity: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    cursor: pointer;
+}
+#facebook{
+    background-image: url(../images/icons/facebook.png);
+}
+#twitter{
+    background-image: url(../images/icons/twitter.png);
+}
+#youtube{
+    background-image: url(../images/icons/youtube.png);
+}
+#instagram{
+    background-image: url(../images/icons/instagram.png);
+}
+@media only screen and (max-width: 1200px) {
+    .contactDiv{
+        flex-direction: column;
+        font-size: 1.5rem;
+        gap: 2rem;
+    }
+  }

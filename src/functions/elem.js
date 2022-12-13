@@ -32,11 +32,3 @@ const elem = function(content){
 export default elem;
 
 
-// homeContainer.appendChild(
-//     elem({
-//         prop: "div",
-//         children: [
-//             elem({prop: "p", text: "dsdfsdf"})
-//         ]
-//     })
-// )

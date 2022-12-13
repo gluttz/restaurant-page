@@ -4,7 +4,8 @@ import './css/reset.css';
 import firstLoad from "./functions/firstLoad"
 import render from "./functions/render"
 import home from "./pages/home"
-
+import menu from "./pages/menu"
+import contact from "./pages/contact"
 
 firstLoad();
 
@@ -24,5 +25,5 @@ menuButton.addEventListener('click', () => {
 
 contactButton.addEventListener('click', () => {
     render();
-    contactButton();
+    contact();
 })

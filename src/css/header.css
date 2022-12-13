@@ -21,7 +21,7 @@ html{
     display: flex;
     flex-direction: column;
     padding: 4rem 8rem;
-    height: 100%;
+    min-height: 100vh;
     background: url(../images/albert-unsplash.jpg);
     background-size: cover;
     color: black;
@@ -66,7 +66,7 @@ html{
     border-left: .5px solid white;
     border-right: .5px solid black;
     cursor: pointer;
-    opacity: .9;
+    opacity: 1;
 }
 #header li:focus{
     border-top: .5px solid black;
@@ -75,10 +75,10 @@ html{
 }
 #header .selected{
     background-color: var(--periwinkle);
-    opacity: 1;
+    opacity: .9;
     z-index: 9;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     #content{
         padding: 1rem;
     }
