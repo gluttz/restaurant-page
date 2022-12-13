@@ -1,0 +1,34 @@
+#homeContainer{
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: cent;
+}
+#about, #hours, #location{
+    background-color: var(--periwinkle);
+    width: 100%;
+    box-shadow: 0 0 15px black;
+    padding: 2rem;
+    opacity: .9;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+    text-shadow: 0 0 5px grey;
+    line-height: 2rem;
+}
+#about h2, #hours h2, #location h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+    #about, #hours, #location{
+        font-size: 1rem;
+    }
+  }
